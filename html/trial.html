@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>watson form</title>
+</head>
+
+<body>
+<h3>File Upload:</h3>
+Select a zip file to upload: <br />
+
+<form action = "http://216.196.138.146:8081/test" method = "POST"
+      enctype = "multipart/form-data">
+    Positive zip: <input type="file" name="file" size="100"/>
+    <br />
+    Positive zip: <input type="file" name="file" size="100"/>
+    <br />
+    <input type="file" name="file" size="100"/>
+    <br />
+    Name of class: <input type="text" name="className" size="20"/>
+    <br />
+        <input type="radio" name="gender" value="male"> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other
+    <input type = "submit" value = "Upload File" />
+</form>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>watson form</title>
+</head>
+
+<body>
+<h3>File Upload:</h3>
+Select a zip file to upload: <br />
+
+<form action = "http://127.0.0.1:8081/zip_upload" method = "POST"
+      enctype = "multipart/form-data">
+    zip: <input type="file" name="file" size="100"/>
+    <br />
+    zip: <input type="file" name="file" size="100"/>
+    <br />
+    zip: <input type="file" name="file" size="100"/>
+    <br />
+   Name of class: <input type="text" name="className" size="20"/>
+    <br />
+    <input type="radio" name="type" value="ppp" checked/> Positive Positive Positive
+    <br />
+    <input type="radio" name="type" value="ppn"/> Positive Positive Negative
+    <br />
+    <input type = "submit" value = "Upload File" />
+</form>
+
+</body>
+</html>
